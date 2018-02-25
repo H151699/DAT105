@@ -1,3 +1,4 @@
+
 /*
 Oppgave 3
 
@@ -25,7 +26,7 @@ int main() {
 	cout << "Enter max range >  " << flush;
 	cin >> n;
 
-	for(num = 1; num <= n; num++)     
+	for(num = 0; num <= n; num++) {
 
 		count = 0;
 
@@ -36,13 +37,10 @@ int main() {
 			}
 		}
 
-		if (count == 0 && num != 1 && num != 0) {
+		if (count == 0 && num != 1) {
 			cout << num << endl;
-
+			
 		}
-
-
-		
 		
 	}
 
