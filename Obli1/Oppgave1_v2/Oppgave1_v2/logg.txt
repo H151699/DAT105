@@ -1,0 +1,4 @@
+Fra: Vegar, Til: Sondre, Belop: 10 Bitcoin
+Fra: Sondre, Til: Vegar, Belop: 100 Bitcoin
+Fra: Vegar, Til: Sondre, Belop: 10 Bitcoin
+Fra: Sondre, Til: Vegar, Belop: 100 Bitcoin

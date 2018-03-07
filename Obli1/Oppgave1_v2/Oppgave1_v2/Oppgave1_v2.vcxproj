@@ -20,8 +20,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{B72BAAB0-097D-42AD-BEFB-83D1775D1992}</ProjectGuid>
-    <RootNamespace>Oppgave1</RootNamespace>
+    <ProjectGuid>{ADFCDBB6-EBA7-4B0B-84EF-A0F02D5F35D3}</ProjectGuid>
+    <RootNamespace>Oppgave1v2</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -115,15 +115,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Konto.cpp" />
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="Spiller.cpp" />
-    <ClCompile Include="Transaksjon.cpp" />
+    <ClInclude Include="..\..\..\..\..\..\CodeExamples\O3_Oppgave2-3\O3_Oppgave2-3\Konto.h" />
+    <ClInclude Include="..\..\..\..\..\..\CodeExamples\O3_Oppgave2-3\O3_Oppgave2-3\Spiller.h" />
+    <ClInclude Include="..\..\..\..\..\..\CodeExamples\O3_Oppgave2-3\O3_Oppgave2-3\Transaksjon.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Konto.h" />
-    <ClInclude Include="Spiller.h" />
-    <ClInclude Include="Transaksjon.h" />
+    <ClCompile Include="..\..\..\..\..\..\CodeExamples\O3_Oppgave2-3\O3_Oppgave2-3\Konto.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\CodeExamples\O3_Oppgave2-3\O3_Oppgave2-3\main.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\CodeExamples\O3_Oppgave2-3\O3_Oppgave2-3\Spiller.cpp" />
+    <ClCompile Include="..\..\..\..\..\..\CodeExamples\O3_Oppgave2-3\O3_Oppgave2-3\Transaksjon.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

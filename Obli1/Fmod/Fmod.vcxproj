@@ -20,8 +20,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{B72BAAB0-097D-42AD-BEFB-83D1775D1992}</ProjectGuid>
-    <RootNamespace>Oppgave1</RootNamespace>
+    <ProjectGuid>{7EAC1ABC-3A5D-40B3-933A-BC1D7DD2B2CB}</ProjectGuid>
+    <RootNamespace>Fmod</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -115,15 +115,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Konto.cpp" />
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="Spiller.cpp" />
-    <ClCompile Include="Transaksjon.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Konto.h" />
-    <ClInclude Include="Spiller.h" />
-    <ClInclude Include="Transaksjon.h" />
+    <ClCompile Include="fmod.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
