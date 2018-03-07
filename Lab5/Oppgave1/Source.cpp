@@ -7,6 +7,8 @@ Created by Andrew Jianyou Day
 #include <algorithm>
 #include <string>
 #include <vector>
+#include <list>
+#include <iterator>
 using namespace std;
 
 // Lambda
@@ -102,6 +104,17 @@ string vectorToString2(vector<T> &vector) {
 }
 
 
+/// display list using iterator
+void displayList(list<int> l){
+
+	list<int>::iterator it;
+
+	for (it = l.begin(); it != l.end(); ++it) {
+		cout << ' ' << *it;
+		cout << '\n';
+	}
+}
+
 
 
 
@@ -110,6 +123,13 @@ string vectorToString2(vector<T> &vector) {
 //********************************************************
 /// main
 int main() {
+	
+	list<int> mylist({ 2, 8, 7, 5, 3, 1, 4 });
+
+	mylist.sort();
+	displayList(mylist);
+	
+
 
 	vector<int> v = { 1, 9, 7, 3, 5, 6, 2, 8, 4 };
 	printHelloWorld1();
