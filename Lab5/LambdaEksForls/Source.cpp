@@ -122,7 +122,7 @@ void sortVector2(vector<T> &v) {
 
 int main() {
 
-	/*
+	
 	// Exercise on Lambda 1
 	///*********************************************
 	printHelloWorld1();
@@ -142,7 +142,7 @@ int main() {
 
 	
 	
-	*/
+	
 
 	/// copy1 and sort1 with compare
 	///*********************************************
