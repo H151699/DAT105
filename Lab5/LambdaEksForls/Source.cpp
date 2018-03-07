@@ -68,7 +68,6 @@ auto caculateSum2 = [](int a, int b)->int {return a + b; };
 
 // Vector To String 
 ///*********************************************
-
 template<class T>
 string vectorToString1(vector<T> &vector) {
 	stringstream ss;
